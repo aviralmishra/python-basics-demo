@@ -4,15 +4,5 @@
 import math
 
 def halve_string(input_string):
-    length = len(input_string)
-    
-    if(length % 2 == 0):
-        return (
-            input_string[0:length // 2],
-            input_string[length // 2:length]
-        )
-    else:
-        return (
-            input_string[0:math.ceil(length / 2)],
-            input_string[math.ceil(length / 2):length]
-        )
+    middle = math.ceil(len(input_string) / 2)
+    return (input_string[:middle], input_string[middle:])
