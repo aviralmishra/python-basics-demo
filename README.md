@@ -1,5 +1,5 @@
 # python-basics-demo
-Refresher for Python basic syntax and concepts
+Refresher for Python basics+ syntax and concepts
 
 # Resources
 * https://www.udemy.com/course/python-pcep/
